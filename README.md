@@ -7,11 +7,11 @@ Javions is a flight tracking application developed during the second semester at
 The Javions application provides a user-friendly graphical interface for visualizing air traffic around the world. It leverages JavaFX to create an interactive map with various features.
 
 ### Key Features
-- Aircraft Description: Information about each aircraft, including its model, call sign, ICAO address, etc...
-- Speed: Real-time speed data of each aircraft 
-- Position: Real-time geographical coordinates of each aircraft displayed on the map.
-- Altitude: Altitude information, visually represented through the *plasma color gradient*.
-- Trajectory: Clicking on an aircraft reveals its trajectory, enhancing situational awareness.
+- **Aircraft Description**: Information about each aircraft, including its model, Call Sign, ICAO address, etc...
+- **Speed**: Real-time speed data of each aircraft 
+- **Position**: Real-time geographical coordinates of each aircraft displayed on the map.
+- **Altitude**: Altitude information, visually represented through the *plasma color gradient*.
+- **Trajectory**: Clicking on an aircraft reveals its trajectory, enhancing situational awareness.
 
 ### Preview
 <p align="center">
@@ -29,9 +29,9 @@ The Javions application provides a user-friendly graphical interface for visuali
 ## Operation Modes
 The Flight Tracker offers versatility through two distinctive modes to accommodate various setups and preferences:
 
-1. File Mode: In this mode, the application decodes messages sourced from a `.bin` file. This option proves beneficial for offline analysis or when you want to scrutinize previously collected flight data.
+1. **File Mode**: In this mode, the application decodes messages sourced from a `.bin` file. This option proves beneficial for offline analysis or when you want to scrutinize previously collected flight data.
 
-2. Live Mode: Javions seamlessly transitions into live mode when an [Airspy R2 device](https://airspy.com/airspy-r2/) is connected. The application decodes messages in real-time, delivering flight data for an immersive and current experience.
+2. **Live Mode**: Javions seamlessly transitions into live mode when an [Airspy R2 device](https://airspy.com/airspy-r2/) is connected. The application decodes messages in real-time, delivering flight data for an immersive and current experience.
 
 ### Using the File Mode (on IntelliJ IDE)
 Note that JavaFX must configured in your IDE as well as the correct version of Java. Take a look at the Prerequisites section for this. If this is done, you can proceed.
