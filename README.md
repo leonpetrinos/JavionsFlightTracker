@@ -18,6 +18,14 @@ The Javions application provides a user-friendly graphical interface for visuali
   <img src="resources/JavionRecording.gif" alt="JavionsGif">
 </p>
 
+#### Initial Lag Explanation
+
+- **Laggy Start**: It's normal if the program experiences initial lagginess. This occurs as the application fetches tiles constituting the world map from [OpenStreetMap](https://www.openstreetmap.org/#map=5/55.216/-106.348).
+
+- **Tile Cache Mechanism**: As you explore different areas and zoom levels, the program stores these tiles in a folder named `tile-cache` within your project directory.
+
+- **Performance Optimization**: Subsequent visits to previously explored zones fetch tiles directly from the local cache instead of the URL. This significantly improves performance, resulting in a smoother and less laggy experience.
+
 ## Operation Modes
 The Flight Tracker offers versatility through two distinctive modes to accommodate various setups and preferences:
 
