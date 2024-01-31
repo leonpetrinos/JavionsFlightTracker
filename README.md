@@ -14,6 +14,9 @@ The Javions application provides a user-friendly graphical interface for visuali
 - Trajectory: Clicking on an aircraft reveals its trajectory, enhancing situational awareness.
 
 ### Preview
+<p align="center">
+  <img src="resources/JavionRecording.gif" alt="JavionsGif">
+</p>
 
 ## Operation Modes
 The Flight Tracker offers versatility through two distinctive modes to accommodate various setups and preferences:
@@ -53,7 +56,9 @@ airspy_rx -r - -f 1090 -t 5 -g 17 | java --enable-preview -cp out/production/Jav
 ```
 where again, ${JFX_PATH?} must be replaced by the path to the JavaFX `lib` subfolder.
 - #### Screenshot of the program running with the Airspy connected 
-
+<p align="center">
+  <img src="resources/javions_live_mode.png" alt="JavionsPic">
+</p>
 
 ## Prerequisites
 
